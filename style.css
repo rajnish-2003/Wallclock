@@ -1,0 +1,42 @@
+#clockcontainer{
+    height:28vw;
+    width:28vw;
+    background:url(clock.png) no-repeat;
+    background-size: 100%;
+    margin:auto;
+    position:relative;
+    
+}
+body{
+    
+    background-image: url("wallclock.jpg");
+}
+#hour, #min,#sec{
+    position:absolute;
+    background-color:black;
+    border-radius: 8px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 2%;
+    height:25%;
+    top: 25%;
+    left: 49%;
+    opacity:0.9; 
+}
+#min{
+    width: 1.5%;
+    height:30%;
+    top: 19%;
+    left: 49%;
+    opacity:0.7;
+    
+}
+#sec{
+    width: 1%;
+    height: 35%;
+    top: 14%;
+    left: 49%;
+    opacity:0.5;
+    
+}
